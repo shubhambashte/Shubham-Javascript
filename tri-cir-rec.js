@@ -18,3 +18,13 @@ area=22/7*r*r
 perimeter=2*22/7*r
 console.log(area)
 console.log(perimeter)
+
+
+
+let x=10;
+let y=30;
+sum=x+y
+console.log(sum)
+
+
+

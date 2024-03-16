@@ -15,4 +15,4 @@ a %= 6;
 console.log(a)
 
 a**= 6;
-console.log(typeof (a))
+console.log(a)
