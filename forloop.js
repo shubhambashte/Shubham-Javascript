@@ -20,10 +20,11 @@ for(let i=7;i<=31;i++){
         console.log(i)
     }
 }
-//print numbers from 10to -20//
+//print numbers from 10 to -20 with even numbers only //
 for(let i=10;i>=-20;i--){
     if(i%2==0){
-        
+        console.log(i)
+
     }
-    console.log(i)
+   
 }
