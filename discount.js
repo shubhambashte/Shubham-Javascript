@@ -1,4 +1,6 @@
 let amount=50;
+function isdiscount(amount){
+
 let discount
 if(amount>=100){
     discount=20;
@@ -11,4 +13,8 @@ else{
         
 }
     console.log("discount:",discount)
+
     console.log("the final amount:",amount-discount)
+}
+
+isdiscount(100);
