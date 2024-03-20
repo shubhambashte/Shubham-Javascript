@@ -19,5 +19,9 @@
 // console.log(text)
 
 
-let text = "The character \\ is called backslash.";
-console.log(text)
+// let text = "The character \\ is called backslash.";
+// console.log(text)
+
+
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length;
