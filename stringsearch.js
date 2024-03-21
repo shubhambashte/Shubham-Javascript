@@ -31,6 +31,28 @@
 
 
 
-let text = "Hello world, welcome to the universe.";
-text.endsWith("world", 11);
-console.log(text)
+// let text = "Hello world, welcome to the universe.";
+// text.endsWith("world", 11);
+// console.log(text)
+
+
+let str = "Hello, world!";
+let index = str.indexOf("world"); 
+console.log(index)
+
+let string = "Hello, world!";
+let value = str.lastValueOf("o"); 
+console.log(value)
+
+let straw = "Hello, world!";
+let startsWithHello = str.startsWith("Hello");  
+console.log(startsWithHello)
+
+let strict = "Hello, world!";
+let endsWithWorld = str.endsWith("world!"); 
+console.log(endsWithWorld)
+
+let strand = "Hello, world!";
+let containsWorld = str.includes("world");  
+console.log(containsWorld)
+
