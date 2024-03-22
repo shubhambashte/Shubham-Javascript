@@ -12,3 +12,30 @@
 // let c = Number.NaN;
 // console.log(c)
 
+
+
+console.log(isNaN(123));   // false
+console.log(isNaN('hello'));  // true
+
+
+
+
+var num = new Number(10);
+console.log(num.valueOf());   // 10
+
+
+console.log(isFinite(123));   // true
+console.log(isFinite('hello'));  // false
+
+
+
+
+
+
+
+
+
+
+
+
+

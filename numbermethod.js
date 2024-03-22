@@ -24,3 +24,16 @@
 // b.toPrecision(4);
 // b.toPrecision(6);
 // console.log(b)
+
+
+
+var num = 10.5678;
+console.log(num.toFixed(2));   // 10.57
+
+var num = 12345.6789;
+console.log(num.toPrecision(4));   // 1235
+
+
+var num = 123;
+console.log(num.toString());   // "123"
+
