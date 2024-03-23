@@ -65,7 +65,23 @@
 
 // const myArr = [[1,2],[3,4],[5,6]];
 // const newArr = myArr.flat();
-// console.log(newArr)                                           //Array flat() method creates a new array with sub-array elements concatenated to a specified depth
+// console.log(newArr)                                           //Array flat() method creates a new array with sub-array elements concatenated to a specified dconst fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 
 
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(2, 2, "Lemon", "Kiwi");
+// console.log(fruits)                                          //Array splice() method can be used to add new items to an array
+
+
+
+// const months = ["Jan", "Feb", "Mar", "Apr"];
+// const spliced = months.toSpliced(0, 1);
+// console.log(spliced)                                        //Array toSpliced() method as a safe way to splice an array without altering the original array
+
+
+
+// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// const citrus = fruits.slice(1);
+// console.log(citrus)                                             //Array slice() method slices out a piece of an array into a new array
