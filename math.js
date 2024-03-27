@@ -1,0 +1,5 @@
+console.log(Math.ceil(Math.random()*100)) 
+console.log(Math.floor(9.2346))
+console.log(Math.ceil(9.9321))
+console.log(Math.sqrt(626))
+console.log(Math.pow(6,7))
