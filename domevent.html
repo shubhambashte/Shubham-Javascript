@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM EVENT</title>
+</head>
+<body>
+    <!-- <h1 onclick="this.innerHTML = 'HELLO!!!'">CLICK HERE!!!</h1> -->
+
+    <!-- <h1 onclick="changeText(this)">Click on this text!</h1>
+   
+
+<script>
+function changeText(id) {
+  id.innerHTML = "HELLO!!!!";
+} -->
+
+<!-- <button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+} -->
+
+<!-- 
+</script>
+</script> -->
+<!-- Enter your name: <input type="text" id="fname" oninput="upperCase()">
+
+<script>
+function upperCase() {
+  const x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+</script> -->
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:gold; width:120px; height:20px; padding:40px; ">
+Mouse Over Me</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "Thank You"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+</script>
+
+
+
+</body>
+</html>

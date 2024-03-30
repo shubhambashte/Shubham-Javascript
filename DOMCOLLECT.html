@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit.</p>
+    <p>Lorem ipsum dolor sit amet.</p> -->
+    <!-- <p id="demo"></p> -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button onclick="myFunction()">TRY!!!!!!!</button>
+    <script>
+        // const myCollection = document.getElementsByTagName("p");
+        // document.getElementById("demo").innerHTML="The innerHTML of the second para is:" + myCollection[1].innerHTML;
+
+        function myFunction() {
+  const myCollection = document.getElementsByTagName("p");
+  for (let i = 0; i < myCollection.length; i++) {
+    myCollection[i].style.color = "blue";
+  }
+}
+</script>
+</body>
+</html>
