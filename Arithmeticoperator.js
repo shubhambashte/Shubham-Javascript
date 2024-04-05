@@ -6,7 +6,7 @@ document.writeln("\n addition of a and b:" ,c);
 document.writeln(" subtract of a and b:" ,c);
 
  c=a*b;
-document.write(" multiply of a and b:" ,c);
+document.write(" mltiply of a and b:" ,c);
 
  c=a/b;
 document.write(" divide of a and b:" ,c);
